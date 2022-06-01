@@ -1,4 +1,6 @@
-
+* {
+    border: 1px solid red;
+}
 
 body {
     margin: 0;
@@ -65,7 +67,23 @@ button {
 }
 
 .third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 5% 10% 10% 5%;
+}
+
+#whose {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    align-self: center;
 }
 
 .awesome {
@@ -77,4 +95,17 @@ button {
     border-radius: 50%;
     width: 80px;
     height: 80px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.randominfo {
+    font-size: 36px;
+    font-weight: 800;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
