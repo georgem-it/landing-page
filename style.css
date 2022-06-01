@@ -141,7 +141,7 @@ button {
   padding: 5px;
   border-radius: 8px;
   background: #3882f6;
-  
+  font-weight: bolder;
   display: flex;
   color: white;
 }
@@ -153,4 +153,17 @@ button {
     padding: 2%;
     display: flex;
     place-content: center center;
+}
+
+.klikni {
+    font-weight: 600;
+}
+
+.four_img {
+    border-radius: 30px;
+    border: 4px solid #3882f6;
+}
+
+.header_img {
+    border-radius: 30px;
 }
